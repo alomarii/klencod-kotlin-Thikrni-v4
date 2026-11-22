@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/w_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg"
+    android:gravity="center"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/w_hijri"
+        android:text="١٠ ربيع الآخر ١٤٤٨ هـ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="#E6C15A"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/w_greg"
+        android:text="الجمعة • ٢٠ نوفمبر ٢٠٢٦ م"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="#B7D3C8"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/w_count"
+        android:text="٤٥"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/w_label"
+        android:text="من هدف ١٠٠ صلاة اليوم"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="#B7D3C8"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/w_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/widget_btn"
+        android:gravity="center"
+        android:paddingBottom="7dp"
+        android:paddingLeft="22dp"
+        android:paddingRight="22dp"
+        android:paddingTop="7dp"
+        android:text="@string/widget_btn"
+        android:textColor="#06281D"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+</LinearLayout>
